@@ -1,0 +1,108 @@
+@charset "UTF-8";
+:root {
+    --cor01:#252b53a4;
+    --cor02:#BAC3F9;
+    --cor03:#6F81F7;
+    --cor04:#757fce;
+    --cor05:#5e69ac;
+
+    --fonte-padrao: Arial, verdana, Helvetica, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: white;
+    font-family: var(--fonte-padrao);
+}
+
+div > h1 {
+    background-image: linear-gradient(to bottom, var(--cor05), var(--cor04));
+    text-align: center;
+    color:rgb(255, 255, 255);
+    font-family: var(--fonte-padrao);
+    font-size: 3em;
+    margin-top: 0px;
+    padding-bottom: 15px;
+    box-shadow:0px 0px 8px rgba(0, 0, 0, 0.61); ;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.61);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    font-size: 2em;
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    text-indent: 6px;
+    color: var(rgb(245, 243, 243));
+    font-family: var(--fonte-padrao);
+}
+
+main h2 {
+    color: var(black);
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    text-indent: 6px;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong{
+    color: var(--cor03);
+    font-weight: bold;
+  
+}
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor03);
+    padding: 5px;
+}
+
+aside{
+    background-color: var(--cor01);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgb(0, 0, 0);
+}
+aside > h3{
+    background-color: var(--cor04);
+    color: white;
+    padding: 10px;
+    margin:  -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px ;
+}
+aside > ul{
+    list-style-type: "\2714\00A0";
+    list-style-position: inside;
+    color: black;
+    padding:-10px;
+}
+footer > p{
+    background-color:var(--cor04);
+    font-family: var(--fonte-padrao);
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: -20px;
+    border-radius: 0px 0px 5px 5px;
+}
